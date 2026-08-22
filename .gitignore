@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Model checkpoints / large artifacts
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Data (not meant to be committed)
+data/
+*.zip
+*.tar.gz
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
